@@ -2,7 +2,7 @@ import telebot
 from os import system
 from time import sleep
 
-bot = telebot.TeleBot("1772703229:AAHf2_AgvG3Rr2MQBLrdYmdrDKzkCdgSbys")
+bot = telebot.TeleBot("xxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxx")  # Telebot-api-key
 
 @bot.message_handler(content_types = ['photo'])
 def send_document(message):
